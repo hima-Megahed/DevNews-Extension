@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Printf(Dev News)",
+  "version": "1.0",
+  "description": "Get hot programming news websites",
+  "icons": {
+    "16": "images/dev16.png",
+    "32": "images/dev32.png",
+    "48": "images/dev48.png",
+    "128": "images/dev128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "images/dev16.png",
+    "32": "images/dev32.png",
+    "48": "images/dev48.png",
+    "128": "images/dev128.png"
+    },
+    "default_title": "Printf(Dev News)"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  }
+}
